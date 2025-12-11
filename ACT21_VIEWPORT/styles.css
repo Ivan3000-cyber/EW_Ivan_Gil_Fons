@@ -1,0 +1,27 @@
+*{
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 80vw;
+    height: 70vh;
+    background-color:gainsboro;
+    margin: 0 auto;
+}
+.cuadro1{
+   width: 60vw;
+   height: 30vh;
+   background-color: deeppink;
+}
+
+.cuadro2{
+   width: 20vw;
+   height: 30vh;
+   background-color:chartreuse
+}
+footer{
+   width: 80vw;
+   height: 10vh;
+   background-color:red
+}
