@@ -1,0 +1,119 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: "Mountains of Christmas", serif;
+}
+body{
+       border-color: red;
+       border-style: dashed; 
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+    margin-top: 50px;
+    margin-bottom:100px ;
+}
+.título{
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 30px;
+    color: red;
+}
+
+h3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+h3:hover{
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.caja-1{
+    width: 400px;
+    height: 200px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin: 8px;
+    background: linear-gradient(to top, white 0 10%, green 30% 40%,red 95% 100%);
+}
+.caja-2{
+    width: 400px;
+    height: 200px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin: 8px;
+    background: linear-gradient(45deg, white 0 5%,red 20% 85%,white 95% 100%);
+}
+.caja-3{
+    width: 400px;
+    height: 200px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin: 8px;
+    text-align: center;
+    background: linear-gradient(to left, white 0 15%, rgb(67, 206, 67) 30% 70%,green 90% 100%);
+}
+.caja-4{
+    width: 400px;
+    height: 200px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin: 8px;
+    text-align: center;
+    background: linear-gradient(to bottom, green 0 5%, red 30% 100%);
+}
+.caja-5{
+    width: 400px;
+    height: 200px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin: 8px;
+    text-align: center;
+    background: linear-gradient(45deg, green 0 35%,red 35% 60%,white 60% 100%);
+
+}
+.caja-6{
+    width: 400px;
+    height: 200px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin: 8px;
+    text-align: center;
+    background: linear-gradient(to right, green , white, red , green , white , red , green, white, red);
+}
+.texto{
+    border-color: green;
+    border-width: 2px; ;
+    border-style: solid;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    background: linear-gradient(to top,);
+    
+}
+.título:hover{
+    color: green;
+}
+.texto:hover{
+    background: linear-gradient(to top, red,green);
+    color: white    ;
+}
