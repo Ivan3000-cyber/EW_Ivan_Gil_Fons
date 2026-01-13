@@ -1,0 +1,25 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto ;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(ACT25_img/Fondo.webp);
+}
+header{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1{
+    color: lawngreen;
+}
+
+h3{
+    color: white;
+}

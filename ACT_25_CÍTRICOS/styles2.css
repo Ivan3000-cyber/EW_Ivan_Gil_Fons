@@ -1,0 +1,46 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 200px;
+}
+.pomelos{
+    
+    text-align: center;
+}
+.limones{
+   
+    text-align: center;
+}
+.naranjas{
+   
+    text-align: center;
+}
+.bergamota{
+    text-align: center;
+}
+.home{
+    text-align: center;
+    background-color: yellow;
+    margin-top: 150px ;
+    width: 100px;
+    height: 50px;
+}
+.pomelos:hover{
+    filter: blur(5px);
+}
+.limones:hover{
+    filter: blur(5px);
+}
+.naranjas:hover{
+    filter: blur(5px);
+}
+.bergamota:hover{
+    filter: blur(5px);
+}
+
