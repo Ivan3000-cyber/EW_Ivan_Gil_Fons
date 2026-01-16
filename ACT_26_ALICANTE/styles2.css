@@ -1,0 +1,77 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 60px;
+    width: 1000px;
+    height: 100px;
+    background-color: aquamarine;
+    margin-top: 60px;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 25px;
+    font-size: 60px;
+}
+
+nav{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   margin-top: 40px;
+   margin-bottom: 70px;
+}
+h2{
+    font-size: 30px;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section div{
+    text-align: center;
+    border-style: solid;
+    border-width: 7px;
+    border-color: darkturquoise;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+p{
+    font-size: 30px;
+    padding-top: 20px;
+    color: black;
+}
+
+h3{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+}
+section div:hover{
+    color: hotpink;
+    border-color: cornflowerblue;
+    box-shadow: 5px 5px 60px 20px cyan;
+    background-color: aqua;
+}
+
+header:hover{
+    box-shadow: 20px 20px 30px aquamarine;
+    border-style: solid;
+    border-width: 7px;
+    border-color: cyan;
+}
+
+section div:visited{
+    color: grey;
+}
