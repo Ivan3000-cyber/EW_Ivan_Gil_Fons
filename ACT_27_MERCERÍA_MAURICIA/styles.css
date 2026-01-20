@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: "Chewy", system-ui;
+}
+
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+    margin-top: 30px;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+section div{
+    background-color: orangered ;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+main div{
+   width: 150px;
+   height: 150px;
+   text-align: center;
+   padding-top: 55px;
+   color: white;
+   font-family: "Chewy", system-ui;
+   font-size: 16px;
+   letter-spacing: 1px;
+}
+.calzoncillos{
+  background-color: blue;  
+}
+.calzoncillos:hover{
+    transform: translate(20px, 35px);
+    background-color: white;
+    border: 2px solid blue;
+}
+
+.perfumes{
+    background-color: deeppink;
+}
+.perfumes:hover{
+  transform: translate(20px,-15px);
+  background-color: white;
+  border: 2px solid deeppink;
+}
+
+.pijamas{
+   background-color:yellow;
+   color: black;
+}
+.pijamas:hover{
+    transform: translate(20px, 20px);
+    background-color: white;
+    border: 2px solid yellow;
+    color: white;
+}
+
+.deterjentes{
+   background-color: darkgreen;
+}
+.deterjentes:hover{
+    transform: translate(25px,-20px);
+    background-color: white;
+    border: 2px solid darkgreen;
+}
+
+.mapa{
+  display: flex;
+  width: 500px;
+  border: 2px solid orangered;
+  margin-top: 30px;
+  margin-left: 400px;
+  
+
+    
+}
+iframe{
+    padding: 10px;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
