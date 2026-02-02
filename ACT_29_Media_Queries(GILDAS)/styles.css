@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ 
+ body{
+ background-color: black;
+ }  
+
+header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    color: white;
+}
+
+h1{
+    font-family: "estro-mn", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h5{
+    margin: 15px;
+}
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+main div{
+    margin: 20px;
+}
+.caja1{
+    padding-left: 20px;
+    padding-top: 60px;
+    font-size: 20px;
+}
+.caja2{
+    border-width: 6px;
+    border-style: solid;
+    border-color: red;
+}
+
+.caja1:hover{
+    background-image: url(img/gilda2\ \(2\).webp);
+    background-size: cover;
+}
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    border-width: 6px;
+    border-style: solid;
+    border-color: red;
+    width: 90%;
+    margin: 30px;
+}
+
+p{
+    padding: 10px;
+}
+.sevillana{
+    display: flex;
+    justify-content: center;
+}
+
+@media (orientation: landscape){
+    main{
+        flex-direction: row;
+    }
+    main div{
+        background-color: yellow;
+        width: 200px;
+        height: 200px;
+    }
+    .sevillana{
+        display: none;
+    }
+}
+
+@media (orientation: portrait){
+    main{
+        flex-direction: column;
+    }
+    main div{
+        background-color: olive;
+        width: 200px;
+        height: 200px;
+    }
+    section{
+        display: none;
+    }
+}
