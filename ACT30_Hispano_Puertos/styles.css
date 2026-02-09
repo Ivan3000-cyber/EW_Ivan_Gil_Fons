@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-family: "hauser-script", sans-serif;
+    font-size: 85px;
+    letter-spacing: 2px;
+    margin: 25px;
+}
+
+h2{
+    font-family: "estro-mn", sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: auto;
+    width: 80vw;
+    padding: 2vw;
+}
+
+ul li a,h3{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: "estro-mn", sans-serif;
+}
+ul li a{
+    padding: 1vw;
+    letter-spacing: 1px;
+}
+ul li:hover{
+    background-color: #ff7b25;
+}
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 80vw;
+}
+main img{
+    width: 60vw;
+    margin: 35px;
+}
+main:hover{
+    transform: scale(1.2,1.2);
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 80vw;
+    height: 60vh;
+}
+section div{
+    margin: auto;
+}
+section p{
+    background-color: white;
+    text-align: center;
+    font-size: 5vh;
+    font-family: "estro-mn", sans-serif;
+}
+@media (orientation: landscape){
+    ul{
+        background-color: #feb236;
+    }
+    .ver{
+        display: none;
+    }
+    main{
+        flex-direction: row;
+        background-color: #6b5b95;
+    }
+    section{
+        background-color: #ff7b25;
+    }
+}
+@media (orientation: portrait){
+    ul{
+        flex-direction: column;
+        background-color: #d64161;
+    }
+    .carga{
+        display: none;
+    }
+    main{
+        background-color: #feb236;
+    }
+    section{
+        flex-direction: column;
+        background-color: #6b5b95;
+        width: 80vw;
+        height: 100vh;
+    }
+    section div{
+        margin: auto;
+    }
+}
