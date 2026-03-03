@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/cafeteria-grabada-fondo-objetos-relacionados-textura-papel-kraft_281653-1168.avif);
+    background-size: cover;
+}
+
+header{
+ display: flex;
+ flex-flow: column;
+ justify-content: center;
+ margin: auto;
+}
+
+h1{
+    font-family: "canvas-script", sans-serif;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 1.5vw;
+    font-size: 4vw;
+}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none;
+    width: 70vw;
+    background-color: rgb(117, 80, 25);
+    margin: auto;
+    border-style: solid;
+    border-width: 0.3vw;
+    border-color: rgb(214, 142, 47);
+}
+ul li a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25vw;
+    padding: 4vw;
+    color: white;
+    font-family: "helvetica-lt-pro", sans-serif;
+}
+ul li{
+    margin: 1vw;
+    align-items: center;
+}
+.oracion{
+    text-align: center;
+    font-family: "canvas-script", sans-serif;
+    font-size: 2vw;
+    margin: 2vw;
+    letter-spacing: 0.1vw;
+}
+
+main{
+    margin: auto;
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-around;
+    width: 70vw;
+    height: 210vh;
+    flex-wrap: wrap;
+    background-color:  rgb(21, 131, 94);
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(56, 75, 5);
+}
+
+.palmeras{
+    margin: 1vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color:  rgb(56, 75, 5) ;
+    margin: auto;
+}
+
+main img{
+    width: 20vw;
+}
+
+main,p{
+    font-size: 2vw;
+}
+
+@media (orientation: landscape){
+    .especialidades{
+       display: none;
+    }
+}
+
+
+@media (orientation: portrait){
+    .especialidades{
+        display: none;
+    }
+    .oracion{
+        display: none;
+    }
+}

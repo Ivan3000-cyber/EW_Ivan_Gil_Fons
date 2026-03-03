@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/cafeteria-grabada-fondo-objetos-relacionados-textura-papel-kraft_281653-1168.avif);
+    background-size: cover;
+}
+
+header{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: auto;
+}
+
+h1{
+    font-family: "canvas-script", sans-serif;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 1.5vw;
+    font-size: 4vw;
+}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none;
+    width: 70vw;
+    background-color: rgb(117, 80, 25);
+    margin: auto;
+    border-style: solid;
+    border-width: 0.3vw;
+    border-color: rgb(214, 142, 47);
+}
+ul li a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25vw;
+    padding: 4vw;
+    color: white;
+    font-family: "helvetica-lt-pro", sans-serif;
+}
+ul li{
+    margin: 1vw;
+    align-items: center;
+}
+.frase{
+    text-align: center;
+    font-family: "canvas-script", sans-serif;
+    font-size: 2vw;
+    margin: 2vw;
+    letter-spacing: 0.1vw;
+}
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: auto;
+    width: 65vw;
+    height: 52vh;
+    background-color: rgb(21, 131, 94);
+    border-style: double;
+    border-width: 0.45vw;
+    border-color: rgb(56, 75, 5);
+    margin-bottom: 2vw;
+}
+main img{
+    float: left;
+    padding: 1vw;
+    width: 40vw;
+    height: 50vh;
+}
+main p{
+    font-size: 2.5vw;
+    font-family: "canvas-script", sans-serif;
+    letter-spacing: 0.1vw;
+}
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 70vw;
+    height: 42vh;
+    background-color:  rgb(117, 80, 25);
+    margin: auto;
+    padding: 1vw;
+    border-style: solid;
+    border-width: 0.60vw;
+    border-color: rgb(56, 75, 5);
+    margin-bottom: 3vw;
+}
+section div img{
+   width: 18vw;
+   height: 25vh;
+   padding: 0.5vw;
+   border-style: solid;
+   border-width: 0.65vw;
+   border-color: rgb(56, 75, 5);
+
+}
+section div a{
+    text-decoration: none;
+    text-align: center;
+    color:white ;
+    font-size: 1vw;
+    font-family: "helvetica-lt-pro", sans-serif;
+}
+section div a strong{
+    color:   rgb(214, 142, 47);
+    font-size: 1vw;
+    font-family: "helvetica-lt-pro", sans-serif;
+}
+article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 65vw;
+    height: 20vh;
+    border-style: solid;
+    border-color: rgb(56, 75, 5);
+    border-width: 0.50vw;
+    margin: auto;
+    background-color: rgb(21, 131, 94);
+    text-align: center;
+}
+article p{
+    margin: 2vw;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: "helvetica-lt-pro", sans-serif;
+}
+
+
+@media (orientation: landscape){
+    .home{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+@media (orientation: portrait){
+    .home{
+        display: none;
+    }
+    .frase{
+        display: none;
+    }
+    main{
+        margin: auto;
+    }
+    main p{
+        display: none;
+    }
+    main img{
+        width: 62vw;
+    }
+    section{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .donut{
+        display: none;
+    }
+
+}
