@@ -1,0 +1,162 @@
+
+
+Ir al contenido
+Uso de Gmail con lectores de pantalla
+4 de 100
+Act_41_Gym_Force_edición_web_código
+Recibidos
+
+Iván Gil Fons <ivangilfons1234@gmail.com>
+Archivos adjuntos
+9 may 2026, 21:32 (hace 2 días)
+para mí
+
+
+ 2 archivos adjuntos
+  •  Analizados por Gmail
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 15% 55% 30%;
+    grid-template-areas: 
+    "header header header"
+    "nav article section" 
+    "main main aside" 
+    "footer footer footer";
+    width: 80vw;
+    margin: auto;
+    
+}
+header{
+    grid-area: header;
+    border-width: 0.3vw;
+    border-color: chartreuse;
+    border-style: solid;
+    text-align: center;
+    padding: 2vw;
+    margin-top: 2vw;
+}
+h1{
+    color: blue;
+    font-size: 1.4vw;
+}
+nav{
+    grid-area: nav;
+    border-width: 0.3vw;
+    border-color: red;
+    border-style: solid;
+    text-align: center;
+}
+nav div{
+    border-width: 0.3vw;
+    border-color: red;
+    border-style: solid;
+    margin: 1vw;
+}
+nav div a{
+    padding: 0.2vw;
+    font-size: 1vw;
+}
+article{
+    grid-area: article;
+    border-width: 0.3vw;
+    border-color: purple;
+    border-style: solid;
+    
+}
+article h3{
+    font-size: 1.3vw;
+    padding-left: 2vw;
+    padding-top: 6vw;
+    float: left;
+}
+section{
+    grid-area: section;
+    border-width: 0.3vw;
+    border-color: aqua;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+section div{
+    margin: auto;
+    color: indigo;
+}
+main{
+    grid-area: main;
+    background-color: yellow;
+    padding: 2vw;
+}
+main div a img{
+    width: 100%;
+}
+aside{
+    grid-area: aside;
+    border-width: 0.5vw;
+    border-color: violet;
+    border-style: solid;
+    padding-top: 8vw;
+    padding-bottom: 5vw;
+}
+aside div{
+    border-width: 0.5vw;
+    border-color: violet;
+    border-style: solid;
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+    margin-bottom: 1vw;
+ 
+}
+aside div a h3{
+    padding: 0.8vw;
+    font-size: 1vw;
+}
+nav div:hover{
+    background-color: yellow;
+}
+aside div:hover{
+    background-color: palevioletred;
+}
+footer{
+    grid-area: footer;
+    display: grid;
+    border-width: 0.4vw;
+    border-color: brown;
+    border-style: solid;
+    background-color: blanchedalmond;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "item1 item1"
+    "item2 item3"
+    "item2 item4"
+    "item5 item6";
+    padding: 0.5vw;
+    margin-top: 2vw;
+
+}
+.item1{
+    grid-area: item1;
+}
+
+.item2{
+    grid-area: item2;
+    background-color: darksalmon;
+}
+.item4{
+    background-color: burlywood;
+}
+
+footer div{
+    margin: 1vw;
+    display: grid;
+    border-width: 0.3vw;
+    border-color: brown;
+    border-style: solid;
+    padding: 1.5vw;
+    background-color: white;
+}
